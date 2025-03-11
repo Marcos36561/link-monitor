@@ -30,13 +30,17 @@ Como Usar
    pip install -r requirements.txt
 
 5. Edite o arquivo condominios.csv e adicione os condomínios e seus respectivos IPs no seguinte formato:
+
    
    Nome,IP
+   
    Condomínio A,192.168.1.1
+   
    Condomínio B,8.8.8.8
+   
    Condomínio C,1.1.1.1
 
-6. Execute o sistema:
+7. Execute o sistema:
    
    python app.py
 
