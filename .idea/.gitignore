@@ -1,0 +1,22 @@
+# Arquivos do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Configurações do ambiente virtual
+venv/
+.env
+*.env
+
+# Dependências do projeto
+*.log
+instance/
+*.sqlite3
+
+# Configurações do PyCharm
+.idea/
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
