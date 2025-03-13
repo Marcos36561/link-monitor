@@ -71,4 +71,4 @@ if __name__ == "__main__":
 
     # Inicia o servidor Flask
     if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(debug=False)
