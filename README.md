@@ -19,9 +19,11 @@ HTML, CSS e JavaScript
 Como Usar
 
 1. Clone este repositório:
-   
-   git clone https://github.com/Marcos36561/Monitoramento_de_Link
 
+   ```sh
+   git clone https://github.com/Marcos36561/Monitoramento_de_Link
+   ```
+   
 3. Acesse a pasta do projeto:
    
    cd link-monitor
