@@ -40,9 +40,9 @@ Como Usar
 
    ```sh
    nome,ip
-   Condomínio A,192.168.1.1
-   Condomínio B,8.8.8.8
-   Condomínio C,1.1.1.1
+   Link A,192.168.1.1
+   Link B,8.8.8.8
+   Link C,1.1.1.1
    ```
 
 7. Execute o sistema:
