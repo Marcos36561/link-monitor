@@ -25,30 +25,37 @@ Como Usar
    ```
    
 3. Acesse a pasta do projeto:
-   
+
+   ```sh
    cd link-monitor
+   ```
 
 4. Instale as dependências:
+
+   ```sh
    pip install -r requirements.txt
+   ```
 
-5. Edite o arquivo condominios.csv e adicione os condomínios e seus respectivos IPs no seguinte formato:
+6. Edite o arquivo condominios.csv e adicione os condomínios e seus respectivos IPs no seguinte formato:
 
-   
-   Nome,IP
-   
+   ```sh
+   nome,ip
    Condomínio A,192.168.1.1
-   
    Condomínio B,8.8.8.8
-   
    Condomínio C,1.1.1.1
+   ```
 
 7. Execute o sistema:
-   
+
+   ```sh
    python app.py
+   ```
 
 8. Acesse no navegador:
-   http://localhost:5000
 
+   ```sh
+   http://localhost:5000
+   ```
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
