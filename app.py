@@ -7,8 +7,8 @@ import platform
 
 app = Flask(__name__)
 
-# Classe Condominio
-class Condominio:
+# Classe Link
+class Link:
     def __init__(self, nome, ip):
         self.nome = nome
         self.ip = ip
@@ -29,27 +29,27 @@ class Condominio:
             print(f"Erro ao enviar PING para {self.ip}: {e}")
             self.status = "ERRO"
 
-# Função para carregar condomínios a partir do arquivo CSV
-def carregar_condominios():
+# Função para carregar links a partir do arquivo CSV
+def carregar_links():
     condominios = []
-    with open("condominios.csv", mode="r", newline="", encoding="utf-8") as arquivo:
+    with open("links.csv", mode="r", newline="", encoding="utf-8") as arquivo:
         leitor = csv.DictReader(arquivo)
         for linha in leitor:
-            condominio = Condominio(linha["nome"], linha["ip"])
-            condominios.append(condominio)
-    return condominios
+            link = link(linha["nome"], linha["ip"])
+            links.append(condominio)
+    return links
 
-# Carrega os condomínios do arquivo CSV
-condominios = carregar_condominios()
+# Carrega os links do arquivo CSV
+links = carregar_links()
 
 # Função para monitorar os condomínios em segundo plano
-def monitorar_condominios():
+def monitorar_links():
     while True:
-        for condominio in condominios:
-            condominio.verificar_status()
+        for link in links:
+            link.verificar_status()
         time.sleep(5)  # Dispara um PING a cada 5 segundos
 
-# Rota principal para exibir o status dos condomínios
+# Rota principal para exibir o status dos links
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -57,15 +57,15 @@ def index():
 # Rota para retornar os status dos condomínios em formato JSON
 @app.route("/status")
 def status():
-    status_condominios = {
-        condominio.nome: {"ip": condominio.ip, "status": condominio.status} for condominio in condominios
+    status_links = {
+        link.nome: {"ip": link.ip, "status": link.status} for link in links
     }
-    return jsonify(status_condominios)
+    return jsonify(status_links)
 
 # Iniciar o monitoramento em uma thread separada
 if __name__ == "__main__":
     # Inicia a thread de monitoramento
-    monitor_thread = threading.Thread(target=monitorar_condominios)
+    monitor_thread = threading.Thread(target=monitorar_links)
     monitor_thread.daemon = True  # Thread encerra quando o programa principal encerrar
     monitor_thread.start()
 
