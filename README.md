@@ -1,10 +1,10 @@
 # Monitoramento_de_Link
-O Link Monitor é um sistema simples de monitoramento de links desenvolvido em Python utilizando o framework Flask. Ele realiza pings periodicamente (a cada 5 segundos) nos IPs cadastrados e exibe o status de conectividade na interface do usuário em tempo real. Os IPs são organizados por Condomínio, onde cada entrada possui um nome e um IP correspondente.
+O Link Monitor é um sistema simples de monitoramento de links desenvolvido em Python utilizando o framework Flask. Ele realiza pings periodicamente (a cada 5 segundos) nos IPs cadastrados e exibe o status de conectividade na interface do usuário em tempo real. Os IPs são organizados por Link, onde cada entrada possui um nome e um IP correspondente.
 
 Funcionalidades:
 
 Monitoramento automático dos IPs cadastrados
-Organização dos IPs por Condomínio (Nome + IP)
+Organização dos IPs por Link (Nome + IP)
 Atualização em tempo real do status dos links
 Interface web intuitiva
 
