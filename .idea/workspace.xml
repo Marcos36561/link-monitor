@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64e923b4-1847-4b3b-9645-9b8664be45f0" name="Changes" comment="Implementação">
+      <change beforePath="$PROJECT_DIR$/.idea/Link_Monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Link_Monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ips.csv" beforeDir="false" afterPath="$PROJECT_DIR$/links.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +26,12 @@
     &quot;assignee&quot;: &quot;Marcos36561&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Marcos36561/Monitoramento_de_Link&quot;,
-    &quot;accountId&quot;: &quot;32f5b3c0-34eb-4ce8-a604-4510fba56d11&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Marcos36561/Monitoramento_de_Link.git",
+    "accountId": "9fa1ef1f-9c90-428d-ad01-ddfa31dbf7ac"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app.py" root0="FORCE_HIGHLIGHTING" />
   </component>

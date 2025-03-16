@@ -31,12 +31,12 @@ class Link:
 
 # Função para carregar links a partir do arquivo CSV
 def carregar_links():
-    condominios = []
+    links = []
     with open("links.csv", mode="r", newline="", encoding="utf-8") as arquivo:
         leitor = csv.DictReader(arquivo)
         for linha in leitor:
-            link = link(linha["nome"], linha["ip"])
-            links.append(condominio)
+            link = Link(linha["nome"], linha["ip"])
+            links.append(link)
     return links
 
 # Carrega os links do arquivo CSV
