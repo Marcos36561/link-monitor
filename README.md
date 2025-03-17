@@ -21,7 +21,7 @@ Como Usar
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/Marcos36561/Monitoramento_de_Link
+   git clone https://github.com/Marcos36561/link-monitor
    ```
    
 3. Acesse a pasta do projeto:
