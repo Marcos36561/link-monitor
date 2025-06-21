@@ -4,8 +4,11 @@ O Link Monitor é um sistema simples de monitoramento de links desenvolvido em P
 Funcionalidades:
 
 Monitoramento automático dos IPs cadastrados
+
 Organização dos IPs por Link (Nome + IP)
+
 Atualização em tempo real do status dos links
+
 Interface web intuitiva
 
 Tecnologias Utilizadas:
