@@ -36,7 +36,7 @@ Como Usar
    pip install -r requirements.txt
    ```
 
-6. Edite o arquivo links.csv e adicione os condomínios e seus respectivos IPs no seguinte formato:
+6. Edite o arquivo links.csv e adicione um nome e seus respectivos IPs no seguinte formato:
 
    ```sh
    nome,ip
@@ -58,6 +58,3 @@ Como Usar
    ```
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-
-Este projeto está sob a licença MIT.
